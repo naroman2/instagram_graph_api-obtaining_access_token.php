@@ -1,0 +1,16 @@
+<?php
+	session_start();
+
+	define( 'FACEBOOK_APP_ID', '994122461050964' );
+	define( 'FACEBOOK_APP_SECRET', 'ad81a042c2b583d96d9a013158d62578' );
+	define( 'FACEBOOK_REDIRECT_URI', 'https://github.com/naroman2/instagram_graph_api-obtaining_access_token.php.git' );
+	define( 'ENDPOINT_BASE', 'https://graph.facebook.com/v5.0/' );
+
+	// accessToken
+	$accessToken = 'YOUR-ACCESS-TOKEN-HERE';
+
+	// page id
+	$pageId = 'YOUR-PAGE-ID';
+
+	// instagram business account id
+	$instagramAccountId = 'YOUR-INSTAGRAM-ACCOUNT-ID';
